@@ -26,8 +26,8 @@ export const ContactUs = () => {
                         <label className="item--label">Message</label>
                         <textarea className="inputmessage" type="text" name="message" placeholder="Your message"/>
                     </div>
-                    <button type="submit" className="send"></button>
                 </form>
+                <button type="submit" className="send">SEND</button>
             </div>
             <div className="half__about">
                 <h3 className="title--about">Reach us</h3>
@@ -43,8 +43,7 @@ export const ContactUs = () => {
                         <h5 className="contactsitem">#212, Ground floor, 7th cross Some layout, Some Road,
                             koromangla Bengaluru 560001</h5>
                     </div>
-                </div>
-                
+                </div>  
             </div>
         </div>                
         
