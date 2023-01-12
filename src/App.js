@@ -12,12 +12,12 @@ function App() {
       <>
           <nav>
               <ul>
-                  <li><Link to="/">Home</Link></li>
+                  {/* <li><Link to="/">Home</Link></li>
                   <li><Link to="/why-attend">Why Attend</Link></li>
                   <li><Link to="/sponsors">Sponsors</Link></li>
                   <li><Link to="/gallery">Gallery</Link></li>
                   <li><Link to="/tickets">Tickets</Link></li>
-                  <li><Link to="/contact-us">Contact Us</Link></li>
+                  <li><Link to="/contact-us">Contact Us</Link></li> */}
               </ul>
           </nav>
           <Routes>
