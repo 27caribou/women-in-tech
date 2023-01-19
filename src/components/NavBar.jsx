@@ -23,7 +23,7 @@ export default function NavBar(){
                     <a href = "/gallery">Gallery</a>
                 </li>
                 <li>
-                    <a href = "/tickets">Tickets</a>
+                    <a href = "https://www.tickettailor.com/events/westerndevsociety/766196" target = "_blank">Tickets</a>
                 </li>
                 <li>
                     <a href = "/contact-us">Contact Us</a>
