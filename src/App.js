@@ -6,6 +6,7 @@ import { Gallery } from "./pages/Gallery";
 import { Tickets } from "./pages/Tickets";
 import { ContactUs } from "./pages/ContactUs";
 import { NotFound } from "./pages/NotFound";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                   <li><Link to="/tickets">Tickets</Link></li>
                   <li><Link to="/contact-us">Contact Us</Link></li>
               </ul>
+              <NavBar/>
           </nav>
           <Routes>
               <Route path="/" element={<Home />}/>
