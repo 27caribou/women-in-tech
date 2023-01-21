@@ -1,5 +1,9 @@
+import { StyleSheet } from 'react-native';
 
 export const Home = () => {
+
+    const styles = StyleSheet.create({})
+
     return (
         <>
             <header className = "wit-header">

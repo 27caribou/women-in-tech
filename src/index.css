@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family:"Inter";
+}
+
 .nav {
     background-color: #ECECEC;
     color: black;
@@ -28,5 +32,7 @@
 
 .wit-header {
     background:linear-gradient(rgba(255, 255, 255, 0.5),transparent);
-    background-color:#8A36B2 
+    background-color:#8A36B2;
+    font-family: "Inter"
 }
+
