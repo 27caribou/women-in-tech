@@ -26,7 +26,7 @@ export const WhyAttend = () => {
             <div className="div2">
             <h2 className="head1">What is WITC?</h2>
             <h3 className="text">People get together in a highly engaging conference to exchange knowledge, experiences, and thought leadership</h3>
-            <button class="button-27" role="button" onClick={navigateToTickets}>Get Tickets</button>
+            <button className="button-27" role="button" onClick={navigateToTickets}>Get Tickets</button>
             </div>
             <h2 className="head1">Why Attend The Conference for Women in Tech?</h2>
             <h3 className="text">Assemble a community of x nationalities including more than x women and minorities in IT</h3>
