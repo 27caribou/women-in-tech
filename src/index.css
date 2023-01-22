@@ -109,6 +109,10 @@ button {
     box-sizing: border-box;
 }
 
+body {
+    font-family:"Inter";
+}
+
 .nav {
     background-color: #ECECEC;
     color: black;
@@ -131,5 +135,11 @@ button {
 .nav a {
     color: inherit;
     text-decoration: none;
+}
+
+.wit-header {
+    background:linear-gradient(rgba(255, 255, 255, 0.5),transparent);
+    background-color:#8A36B2;
+    font-family: "Inter"
 }
 

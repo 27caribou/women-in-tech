@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+
+.head {
+    color: white;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-size: 2.8em;
+    font-weight: 600;
+
+
+}
+
+.line-break, 
+.head{
+  display: block;
+}
+
+.div1 {
+    background-image: linear-gradient(#6D059E, white );
+    height: 200px;
+
+}
+
+.head1{
+    color: #8E00D0;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+.text {
+        color: black;
+        text-align: center;
+        font-family: inherit;
+        line-height: 1.6;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.div3{
+  text-align: center;
+  padding-top: 4rem;
+  font-family: 'Sansita', sans-serif;
+}
+
+
+.workshop-button {
+    appearance: none;
+  background-color: #C976D7;
+  border: none;
+  border-radius: 11px;
+  box-sizing: content-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: normal;
+  min-height: 0;
+  min-width: 0;
+  height: 25px;
+  max-width: 110px;
+  outline: none;
+  padding: 5px 24px;
+  
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+
+}
+
+.workshop-button:disabled {
+  pointer-events: none;
+}
+
+.workshop-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.workshop-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.divider{
+    width:70px;
+    height:auto;
+    display:inline-block;
+}
+
+.event-heading{
+  padding-top: 7rem;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+}
+
+.event-container{
+  max-width: 900px;
+  padding-bottom: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  
+  gap: 1rem;
+  flex-wrap: wrap;
+  
+
+}
+
+.booths, 
+.competition, 
+.speakers, 
+.etc{
+  font-family: 'Sansita', sans-serif;
+  min-width: 0;
+  min-height: 0;
+  width: 300px;
+  height: 50px;
+  background-color: #D377FF;
+  color:#FFFFFF;
+  border: none;
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+
+}
+
+.booths:hover, 
+.competition:hover, 
+.speakers:hover, 
+.etc:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.booths:active, 
+.competition:active, 
+.speakers:active, 
+.etc:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
