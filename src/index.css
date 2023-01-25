@@ -24,6 +24,10 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
+.purple {
+    color: #8C5FD2;
+}
+
 /****  NAVIGATION BAR  ****/
 
 .nav-top {

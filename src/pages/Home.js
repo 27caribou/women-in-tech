@@ -13,7 +13,7 @@ export const Home = () => {
             <div className="intro-section">
                 <div className="inner">
                     <div className='div1'>
-                        <h2>The Largest Women in Technology Conference in Canada</h2>
+                        <h2 className="purple">The Largest Women in Technology Conference in Canada</h2>
                         <p className='text'>[Provided paragraph]</p>
                     </div>
                     <div className='div2'>
