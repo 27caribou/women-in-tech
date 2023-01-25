@@ -1,0 +1,93 @@
+
+/* Contact US */
+.container {
+    margin: 100px 0 0;
+}
+.row {
+    display: flex;
+}
+
+/* FORM HALF */
+.half__form {
+    padding: 30px 100px 50px;
+    width: 70%;
+}
+.title--form {
+    color: #8C5FD2;
+    margin-bottom: 60px;
+}
+.title--about {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.item {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+.item--label {
+    color: #8C5FD2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.input {
+    width: 80%;
+    font-size: 20px;
+    height: 20px;
+    color: rgb(36, 33, 33);
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.inputmessage {
+    margin-top: 24px;
+    width: 92%;
+    height: 150px;
+    padding-top: 4px;
+    color: black;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.contactform {
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    cursor: pointer;
+}
+.send {
+    background-color: #8C5FD2;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid #8C5FD2;
+    margin-bottom: 30px;
+}
+
+/* ABOUT HALF */
+.half__about {
+    width: 30%;
+    background-color: #8C5FD2;
+    padding: 30px;
+}
+.df {
+    display: flex;
+}
+.contactsitem {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom:  20px;
+}
+.email {
+    cursor: pointer;
+}
+.contacts {
+    padding-right: 34px;
+}
