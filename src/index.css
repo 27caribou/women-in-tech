@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
 
 .container {
     max-width: 100%;
@@ -143,3 +144,24 @@ body {
     font-family: "Inter"
 }
 
+.head {
+    color: white;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+
+.head1{
+    color: #8E00D0;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+.div1 {
+    background-image: linear-gradient(#6D059E, white );
+    height: 200px;
+
+}

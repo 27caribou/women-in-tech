@@ -4,7 +4,7 @@ Hi Developers! This is where all of our work for the website will be maintained.
 initialized the React app using [Create React App](https://github.com/facebook/create-react-app). This README should
 give you some info as you start working on it.
 
-Don't hesitate to message Uzair or I (Teddy) o Slack if you have any question!
+Don't hesitate to message Uzair or I (Teddy) on Slack if you have any question!
 
 ## Page Design
 

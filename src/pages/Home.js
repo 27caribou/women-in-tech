@@ -25,7 +25,7 @@ export const Home = () => {
                     <button className='workshop-button'>Summit</button>
                 </div>
             </div>
-            <h2 className='event-heading'>What will event day look like?</h2>
+            <h2>What will event day look like?</h2>
             <div className='event-container'>
                 <button className='booths'>Networking Booths</button>
                 <button className='competition'>Interview Competition</button>

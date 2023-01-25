@@ -1,50 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
-
-
-.head {
-    color: white;
-    text-align: center;
-    font-family: 'Sansita', sans-serif;
-    letter-spacing: 1px;
-    padding-top: 30px;
-    font-size: 2.8em;
-    font-weight: 600;
-
-
-}
-
-.line-break, 
-.head{
-  display: block;
-}
-
-.div1 {
-    background-image: linear-gradient(#6D059E, white );
-    height: 200px;
-
-}
-
-.head1{
-    color: #8E00D0;
-    text-align: center;
-    font-family: 'Sansita', sans-serif;
-}
 
 .text {
         color: black;
         text-align: center;
         font-family: inherit;
         line-height: 1.6;
-}
-
-.div2 {
-    text-align: center;
-}
-
-.div3{
-  text-align: center;
-  padding-top: 4rem;
-  font-family: 'Sansita', sans-serif;
 }
 
 
@@ -79,10 +38,6 @@
 
 }
 
-.workshop-button:disabled {
-  pointer-events: none;
-}
-
 .workshop-button:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
@@ -93,32 +48,8 @@
   transform: translateY(0);
 }
 
-.divider{
-    width:70px;
-    height:auto;
-    display:inline-block;
-}
 
-.event-heading{
-  padding-top: 7rem;
-  text-align: center;
-  font-family: 'Sansita', sans-serif;
-}
-
-.event-container{
-  max-width: 900px;
-  padding-bottom: 30px;
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
-  
-  gap: 1rem;
-  flex-wrap: wrap;
-  
-
-}
-
-.booths, 
+.booths,
 .competition, 
 .speakers, 
 .etc{

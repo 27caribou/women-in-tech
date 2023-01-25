@@ -1,36 +1,10 @@
 
-.head {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
-
-
-}
-
-.div1 {
-    background-image: linear-gradient(#6D059E, white );
-    height: 200px;
-
-}
-
-.head1{
-    color: #6D059E;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .text {
         color: black;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.6;
 }
-
-.div2 {
-    text-align: center;
-}
-
 
 .button-27 {
     appearance: none;
@@ -63,15 +37,10 @@
 
 }
 
-.button-27:disabled {
-  pointer-events: none;
-}
-
 .button-27:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
-
 .button-27:active {
   box-shadow: none;
   transform: translateY(0);
