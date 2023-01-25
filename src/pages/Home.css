@@ -123,3 +123,18 @@
   box-shadow: none;
   transform: translateY(0);
 }
+
+.sponsors {
+  padding: 70px 0;
+}
+
+.sponsors h1 {
+  margin-bottom: 80px;
+}
+
+.sponsors .sponsor-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+

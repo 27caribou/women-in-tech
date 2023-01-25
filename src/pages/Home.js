@@ -38,12 +38,35 @@ export const Home = () => {
             </div>
             <div className="event-details">
                 <div className="inner">
-                    <h2>What will event day look like?</h2>
+                    <h2>What will the event day look like?</h2>
                     <div className="grid">
                         <button className='booths'>Networking Booths</button>
                         <button className='competition'>Interview Competition</button>
                         <button className='speakers'>Keynote Speakers</button>
                         <button className='etc'>etc</button>
+                    </div>
+                </div>
+            </div>
+            <div className="testimonials">
+                <div className="inner">
+                    <h1>WHY ATTEND?</h1>
+                    <div className="testimonial-list">
+                        <div className="testimonial">
+                            [testimonials]
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="sponsors">
+                <div className="inner">
+                    <h1>OUR FEATURED SPONSORS</h1>
+                    <div className="sponsor-list">
+                        <div className="sponsor">[Sponsor]</div>
+                        <div className="sponsor">[Sponsor]</div>
+                        <div className="sponsor">[Sponsor]</div>
+                        <div className="sponsor">[Sponsor]</div>
+                        <div className="sponsor">[Sponsor]</div>
+
                     </div>
                 </div>
             </div>
