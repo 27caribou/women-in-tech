@@ -21,7 +21,7 @@ function App() {
         </div>
         <nav className="nav">
             <div className="inner">
-                <img src={logo} className="wits-logo" alt="WIT Logo"/>
+                <Link to="/"><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/why-attend">Why Attend</Link></li>
