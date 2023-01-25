@@ -7,20 +7,30 @@ import { Tickets } from "./pages/Tickets";
 import { ContactUs } from "./pages/ContactUs";
 import { NotFound } from "./pages/NotFound";
 import logo from './images/wit_logo.png';
+import wdsLogo from './images/wds-logo.png';
 
 function App() {
 
-    const navBar = <nav className="nav">
-        <img src={logo} className="wits-logo" alt="Logo"/>
-        <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/why-attend">Why Attend</Link></li>
-            <li><Link to="/sponsors">Sponsors</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><a href="https://www.tickettailor.com/events/westerndevsociety/766196" target="_blank">Tickets</a></li>
-            <li><Link to="/contact-us">Contact Us</Link></li>
-        </ul>
-    </nav>
+    const navBar = <>
+        <div className="nav-top">
+            <div className="inner">
+                <a href="#"><img src={wdsLogo} className="wds-logo" alt="WDS Logo"/></a>
+            </div>
+        </div>
+        <nav className="nav">
+            <div className="inner">
+                <img src={logo} className="wits-logo" alt="WIT Logo"/>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/why-attend">Why Attend</Link></li>
+                    <li><Link to="/sponsors">Sponsors</Link></li>
+                    <li><Link to="/gallery">Gallery</Link></li>
+                    <li><a href="https://www.tickettailor.com/events/westerndevsociety/766196" target="_blank">Tickets</a></li>
+                    <li><Link to="/contact-us">Contact Us</Link></li>
+                </ul>
+            </div>
+        </nav>
+    </>
 
     return (
         <>

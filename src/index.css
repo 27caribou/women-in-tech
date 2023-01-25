@@ -10,16 +10,54 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    color: #383838;
+    text-align: center;
+}
+
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /****  NAVIGATION BAR  ****/
+
+.nav-top {
+    background-color: #ecebeb;
+    font-weight: 600;
+    color: #062754;
+    padding: 0.2rem 0;
+}
+
+.nav-top .inner {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.nav-top a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-top img {
+    width: 30px;
+}
 
 .nav {
     color: black;
-    display: flex;
+    padding: 1rem 0;
+    /*padding: 1.5rem 5rem;*/
+    min-height: 4rem;
+}
+
+.nav .inner {
     justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
     gap: 2rem;
-    padding: 1.5rem 5rem;
-    height: 4rem;
 }
 
 .nav .wits-logo {
@@ -43,10 +81,47 @@ body {
     color: dimgrey;
 }
 
-
 /****  NAVIGATION BAR -- END  ****/
 
 
+/****  TITLE HERO  ****/
+
+.hero {
+    padding: 100px 0;
+    background-image:
+        linear-gradient(to bottom, #590082 5%, rgba(17, 13, 16, 0.73) ),
+        url("https://images.unsplash.com/photo-1550305080-4e029753abcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80")
+    ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    color: white;
+}
+
+.hero h1, .hero h2, .hero h3 {
+    color: white;
+}
+
+.hero h2 {
+    margin-top: 20px;
+}
+
+.hero .inner {
+    text-align: center;
+}
+
+/****  TITLE HERO -- END ****/
+
+
+.text {
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+
+/* Contact US */
 .container {
     max-width: 100%;
     width: 1700px;
@@ -57,10 +132,7 @@ body {
     position: absolute;
 }
 .row {
-    display: flex; 
-}
-h3 {
-    font-size: 34px;
+    display: flex;
 }
 
 /* FORM HALF */
@@ -154,11 +226,6 @@ button {
 }
 
 
-.wit-header {
-    background:linear-gradient(rgba(255, 255, 255, 0.5),transparent);
-    background-color:#8A36B2;
-}
-
 .head {
     color: white;
     text-align: center;
@@ -166,15 +233,4 @@ button {
     padding-top: 30px;
     font-size: 2.8em;
     font-weight: 600;
-}
-
-.head1{
-    color: #8E00D0;
-    text-align: center;
-}
-
-.div1 {
-    background-image: linear-gradient(#6D059E, white );
-    height: 200px;
-
 }
