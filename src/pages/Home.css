@@ -2,7 +2,6 @@
 .text {
         color: black;
         text-align: center;
-        font-family: inherit;
         line-height: 1.6;
 }
 
@@ -18,7 +17,6 @@
   display: inline-block;
   text-align: center;
   font-size: 1em;
-  font-family: inherit;
   font-weight: 500;
   line-height: normal;
   min-height: 0;
@@ -53,7 +51,6 @@
 .competition, 
 .speakers, 
 .etc{
-  font-family: 'Sansita', sans-serif;
   min-width: 0;
   min-height: 0;
   width: 300px;

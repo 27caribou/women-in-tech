@@ -1,9 +1,7 @@
-import { StyleSheet } from 'react-native';
 import "./Home.css";
 
 export const Home = () => {
 
-    const styles = StyleSheet.create({})
 
     return (
         <>
@@ -14,6 +12,9 @@ export const Home = () => {
                 <div className='div2'>
                     <h2 className='head1'>The Largest Women in Technology Conference in Canada</h2>
                     <p className='text'>Provided paragraph</p>
+                    <p>
+                        The hybrid conference will bring women in tech, minorities and allies from all over the world together through an interactive platform featuring live educational & training content, keynotes, engaging panels, breakout rooms, technical workshops, and networking with virtual and in-person sessions.
+                    </p>
                 </div>
 
                 <div className='div3'>
