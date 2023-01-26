@@ -21,21 +21,26 @@ function App() {
                 <a href="#"><img src={wdsLogo} className="wds-logo" alt="WDS Logo"/></a>
             </div>
         </div>
-        <nav className="nav">
+        <div className="nav">
             <div className="inner">
                 <Link to="/"><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/why-attend">Why Attend</Link></li>
-                    <li><Link to="/sponsors">Sponsors</Link></li>
-                    <li><Link to="/sponsor-us">Sponsor Us</Link></li>
-                    <li><Link to="/past-sponsors">Past Sponsors</Link></li>
-                    {/*<li><Link to="/gallery">Gallery</Link></li>*/}
+                    <li>
+                        <div className="dropdown">
+                            <div className="label">Sponsors</div>
+                            <div className="content">
+                                <Link to="/sponsor-us">Sponsor Us</Link>
+                                <Link to="/past-sponsors">Past Sponsors</Link>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="https://www.tickettailor.com/events/westerndevsociety/766196" target="_blank">Tickets</a></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     </>
 
     const footer = <>
@@ -53,9 +58,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/why-attend" element={<WhyAttend/>}/>
-                <Route path="/sponsors" element={<Sponsors/>}/>
                 <Route path="/past-sponsors" element={<PastSponsors/>}/>
                 <Route path="/sponsor-us" element={<SponsorUs/>}/>
+                {/*<Route path="/sponsors" element={<Sponsors/>}/>*/}
                 {/*<Route path="/gallery" element={<Gallery/>}/>*/}
                 <Route path="/tickets" element={<Tickets/>}/>
                 <Route path="/contact-us" element={<ContactUs/>}/>
