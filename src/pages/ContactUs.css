@@ -10,7 +10,7 @@
 /* FORM HALF */
 .half__form {
     padding: 30px 100px 50px;
-    width: 70%;
+    width: 95%;
 }
 .title--form {
     color: #8C5FD2;
@@ -72,7 +72,6 @@ button {
 
 /* ABOUT HALF */
 .half__about {
-    width: 30%;
     background-color: #8C5FD2;
     padding: 30px;
 }

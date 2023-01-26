@@ -32,10 +32,8 @@
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  min-height: 0;
-  min-width: 0;
   height: 40px;
-  max-width: 50px;
+  width: 100px;
   outline: none;
   padding: 16px 24px;
   
@@ -44,7 +42,6 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
   will-change: transform;
 
 }

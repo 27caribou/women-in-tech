@@ -47,16 +47,6 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="testimonials">
-                <div className="inner">
-                    <h1>WHY ATTEND?</h1>
-                    <div className="testimonial-list">
-                        <div className="testimonial">
-                            [testimonials]
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div className="sponsors">
                 <div className="inner">
                     <h1>OUR FEATURED SPONSORS</h1>
