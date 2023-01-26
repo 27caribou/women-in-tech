@@ -20,7 +20,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -157,4 +157,31 @@ h1, h2, h3 {
 .testimonials .testimonial-list {
     /*width: 100%;*/
 }
+
+
+/****  NOT FOUND  ****/
+
+.not-found {
+    text-align: left;
+    background-color: #8C5FD2;
+    color: white;
+    padding: 40vh 0;
+    font-weight: 300;
+}
+
+.not-found h1, .not-found h2 {
+    color: white;
+}
+
+.not-found h1 {
+    font-size: 8rem;
+    margin-bottom: 20px;
+}
+
+.not-found h2 {
+    margin-bottom: 10px;
+}
+
+
+/****  NOT FOUND -- END  ****/
 

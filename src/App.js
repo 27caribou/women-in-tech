@@ -10,6 +10,8 @@ import logo from './images/wit_logo.png';
 import wdsLogo from './images/wds-logo.png';
 import instaLogo from './images/instagram-logo.png';
 import linkedInLogo from './images/linkedin-logo.png';
+import {SponsorUs} from "./pages/SponsorUs";
+import {PastSponsors} from "./pages/PastSponsors";
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/why-attend">Why Attend</Link></li>
                     <li><Link to="/sponsors">Sponsors</Link></li>
+                    <li><Link to="/sponsor-us">Sponsor Us</Link></li>
+                    <li><Link to="/past-sponsors">Past Sponsors</Link></li>
                     {/*<li><Link to="/gallery">Gallery</Link></li>*/}
                     <li><a href="https://www.tickettailor.com/events/westerndevsociety/766196" target="_blank">Tickets</a></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
@@ -50,7 +54,9 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/why-attend" element={<WhyAttend/>}/>
                 <Route path="/sponsors" element={<Sponsors/>}/>
-                <Route path="/gallery" element={<Gallery/>}/>
+                <Route path="/past-sponsors" element={<PastSponsors/>}/>
+                <Route path="/sponsor-us" element={<SponsorUs/>}/>
+                {/*<Route path="/gallery" element={<Gallery/>}/>*/}
                 <Route path="/tickets" element={<Tickets/>}/>
                 <Route path="/contact-us" element={<ContactUs/>}/>
                 <Route path="*" element={<NotFound/>}/>
