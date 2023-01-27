@@ -1,4 +1,5 @@
 import "./WhyAttend.css"
+import headshot from '../images/placeholder_headshot.jpeg';
 
 export const WhyAttend = () => {
 
@@ -13,7 +14,23 @@ export const WhyAttend = () => {
                     <h1>WHY ATTEND?</h1>
                     <div className="testimonial-list">
                         <div className="testimonial">
-                            [testimonials]
+                            <div className="testimonial-img-container">
+                                <img src={headshot} className="testimonial-img" alt="Testimonial Photo"/>
+                            </div>
+                            <div>
+                                <p className="testimonial-quote">
+                                ["If you are a woman in tech or anyone who understands the value of tapping into this talent, join, follow, support, and amplify WomenTech Network."]
+                                </p>
+                                <p className="testimonial-quote">
+                                    <strong>
+                                        <small>
+                                        [- Mariah Lichtenstern, Founding Partner at DiverseCity Ventures]
+                                        </small>
+      
+                                    </strong>
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
