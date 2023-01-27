@@ -131,9 +131,3 @@
 .sponsors h1 {
   margin-bottom: 80px;
 }
-
-.sponsors .sponsor-list {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}

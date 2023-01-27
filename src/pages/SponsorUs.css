@@ -17,23 +17,19 @@
 }
 
 .sponsor-us .benefits-table thead {
-    border-bottom: 5px solid #dabb78;
+    border-bottom: 5px solid #f19871;
 }
 
 .sponsor-us .benefits-table th, .sponsor-us .benefits-table td {
-    border: 1px solid #21386e;
+    border: 1px solid #7637d9;
     padding: 15px 25px;
 }
 
 .sponsor-us .benefits-table th {
-    background-color: #21386e;
+    background-color: #7637d9;
     color: white;
     font-weight: 500;
     text-align: left;
-}
-
-.sponsor-us .benefits-table tbody th {
-    padding-left: 80px;
 }
 
 .sponsor-us .benefits-table th:not(:first-of-type), .sponsor-us .benefits-table tbody td {
@@ -44,6 +40,6 @@
     display: inline-block;
     width: 12px;
     height: 12px;
-    background-color: #dabb78;
+    background-color: #f19871;
     border-radius: 50%;
 }

@@ -66,14 +66,9 @@ export const ContactUs = () => {
                         <div className="df">
                             <div className="contacts">
                                 <h5 className="contactsitem">Email</h5>
-                                <h5 className="contactsitem">Phone</h5>
-                                <h5 className="contactsitem">Address</h5>
                             </div>
                             <div className="contacts__details">
                                 <h5 className="contactsitem email">contactus@example.com</h5>
-                                <h5 className="contactsitem">+1 012 345 6789</h5>
-                                <h5 className="contactsitem">#212, Ground floor, 7th cross Some layout, Some Road,
-                                    koromangla Bengaluru 560001</h5>
                             </div>
                         </div>
                     </div>

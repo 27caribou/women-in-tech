@@ -20,8 +20,8 @@ export const SponsorUs = () => {
                 { name: 'Opportunity to judge interview competition', hasTitle: true, hasGold: false },
                 { name: 'Opportunity to host a networking booth with company reps', hasTitle: true, hasGold: true },
                 { name: 'Company branded banners and page in summit handbook', hasTitle: true, hasGold: true },
-                { name: 'Key note speech and Q&A (20 minutes)', hasTitle: true, hasGold: false },
-                { name: 'Key note speech and Q&A (10 minutes)', hasTitle: false, hasGold: true }
+                { name: 'Keynote speech and Q&A (1 hour)', hasTitle: true, hasGold: false },
+                { name: 'Keynote speech and Q&A (30 minutes)', hasTitle: false, hasGold: true }
             ]
         }, {
             type: 'Post Event Recognition',
@@ -41,7 +41,7 @@ export const SponsorUs = () => {
             <div className="sponsor-us">
                 <div className="inner">
                     <h2>Interested in sponsoring WIT?</h2>
-                    <p>[Insert text]</p>
+                    <p>If you are interested in sponsoring WITS, Sunday, January 28, 2024 - please email aryankhurana@icloud.com.</p>
                     <br/>
                     <br/>
                     <h2>Benefits Breakdown</h2>
@@ -49,8 +49,8 @@ export const SponsorUs = () => {
                         <thead>
                             <tr>
                                 <th>Sponsorship Benefits</th>
-                                <th>Title - $1500+<br/>1 Available</th>
-                                <th>Gold - $750+<br/>2 Available</th>
+                                <th>Title<br/>1 Available</th>
+                                <th>Gold<br/>4 Available</th>
                             </tr>
                         </thead>
                         <tbody>
