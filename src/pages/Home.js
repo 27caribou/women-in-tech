@@ -52,7 +52,6 @@ export const Home = () => {
 
   // make sure to name matches key of modal in modals
   const openModal = (name) => setModal(name)
-
   const closeModal = () => setModal("")
 
   return (
