@@ -1,7 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { WhyAttend } from "./pages/WhyAttend";
-import { Sponsors } from "./pages/Sponsors";
 import { Gallery } from "./pages/Gallery";
 import { Tickets } from "./pages/Tickets";
 import { ContactUs } from "./pages/ContactUs";
@@ -18,12 +17,14 @@ function App() {
     const navBar = <>
         <div className="nav-top">
             <div className="inner">
-                <a href="#"><img src={wdsLogo} className="wds-logo" alt="WDS Logo"/></a>
+                <img src={wdsLogo} className="wds-logo" alt="WDS Logo"/>
             </div>
         </div>
         <div className="nav">
             <div className="inner">
-                <Link to="/"><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
+                <div className="logo">
+                    <Link to="/"><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
+                </div>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/why-attend">Why Attend</Link></li>
@@ -36,7 +37,7 @@ function App() {
                             </div>
                         </div>
                     </li>
-                    <li><a href="https://www.tickettailor.com/events/westerndevsociety/766196" target="_blank">Tickets</a></li>
+                    <li><Link to="/tickets">Tickets</Link></li>
                     <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
             </div>
@@ -60,7 +61,6 @@ function App() {
                 <Route path="/why-attend" element={<WhyAttend/>}/>
                 <Route path="/past-sponsors" element={<PastSponsors/>}/>
                 <Route path="/sponsor-us" element={<SponsorUs/>}/>
-                {/*<Route path="/sponsors" element={<Sponsors/>}/>*/}
                 {/*<Route path="/gallery" element={<Gallery/>}/>*/}
                 <Route path="/tickets" element={<Tickets/>}/>
                 <Route path="/contact-us" element={<ContactUs/>}/>

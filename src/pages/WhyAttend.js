@@ -21,26 +21,21 @@ export const WhyAttend = () => {
             <div className="why-attend-details">
                 <div className="inner">
                     <div className="div1">
-                        <h2 className="purple">Who should attend the Women in Tech conference?</h2>
-                        <h3 className="text">A place for women in technology</h3>
-                        <p className="text">Attending Women in Tech Conference is a great way to stay up to date on the latest
-                            technology,
-                            develop your abilities, and add more value to your organization if you work as a software engineer,
-                            product manager, designer, data scientist business manager, or in a tech department. Become more
-                            connected
-                            to women in IT communities around the world, interact on a local and a international level, look for
-                            new
-                            opportunities, and give back to the community to have an effect
+                        <h2 className="purple">Who should attend the Women in Tech Summit?</h2>
+                        <h3 className="text">For female and female-aligned students</h3>
+                        <p className="text">The Women in Tech Summit (WITS) provides female and female-aligned students
+                            a platform to connect and grow in the professional world. The WIT Summit brings
+                            career-driven workshops, keynotes, and an interview competition led by industry leaders.
                         </p>
                     </div>
                     <div className="div2">
-                        <h2 className="purple">What is WITC?</h2>
+                        <h2 className="purple">What is WITS?</h2>
                         <h3 className="text">People get together in a highly engaging conference to exchange knowledge,
                             experiences, and thought leadership</h3>
-                        <button className="button-27" role="button" onClick={openTicketsPage}>Get Tickets</button>
+                        {/*<button className="button-27" role="button" onClick={openTicketsPage}>Get Tickets</button>*/}
                     </div>
                     <div className="div3">
-                        <h2 className="purple">Why Attend The Conference for Women in Tech?</h2>
+                        <h2 className="purple">Why Attend The Women in Tech Summit?</h2>
                         <h3 className="text">Assemble a community of x nationalities including more than x women and minorities
                             in IT
                         </h3>
