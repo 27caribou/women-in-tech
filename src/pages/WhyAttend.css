@@ -19,6 +19,44 @@
   text-align: center;
 }
 
+
+@media only screen and (min-width: 768px){
+  .testimonial{
+    margin-top: 20px;
+    padding: 12px 0;
+    display: flex;
+    align-items: top;
+  }
+}
+
+.testimonial-img-container{
+  padding: 0 20px;
+  margin-right: 8px;
+}
+
+.testimonial-img {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-color: #c9c9c9;
+  border-radius: 100px;
+  overflow: hidden;
+  border-style: solid;
+  width: 100px;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100px;
+}
+
+.testimonial-quote{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: left;
+}
+
 .button-27 {
     appearance: none;
   background-color: #8C5FD2;
