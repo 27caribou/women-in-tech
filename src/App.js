@@ -14,6 +14,8 @@ import {PastSponsors} from "./pages/PastSponsors";
 
 function App() {
 
+    const githubPage = 'women-in-tech'
+
     const navBar = <>
         <div className="nav-top">
             <div className="inner">
@@ -23,22 +25,22 @@ function App() {
         <div className="nav">
             <div className="inner">
                 <div className="logo">
-                    <Link to="/"><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
+                    <Link to={`${githubPage}`}><img src={logo} className="wits-logo" alt="WIT Logo"/></Link>
                 </div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/why-attend">Why Attend</Link></li>
+                    <li><Link to={`${githubPage}`}>Home</Link></li>
+                    <li><Link to={`${githubPage}/why-attend`}>Why Attend</Link></li>
                     <li>
                         <div className="dropdown">
                             <div className="label">Sponsors</div>
                             <div className="content">
-                                <Link to="/sponsor-us">Sponsor Us</Link>
-                                <Link to="/past-sponsors">Past Sponsors</Link>
+                                <Link to={`${githubPage}/sponsor-us`}>Sponsor Us</Link>
+                                <Link to={`${githubPage}/past-sponsors`}>Past Sponsors</Link>
                             </div>
                         </div>
                     </li>
-                    <li><Link to="/tickets">Tickets</Link></li>
-                    <li><Link to="/contact-us">Contact Us</Link></li>
+                    <li><Link to={`${githubPage}/tickets`}>Tickets</Link></li>
+                    <li><Link to={`${githubPage}/contact-us`}>Contact Us</Link></li>
                 </ul>
             </div>
         </div>
@@ -57,14 +59,14 @@ function App() {
         <>
             { navBar }
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/why-attend" element={<WhyAttend/>}/>
-                <Route path="/past-sponsors" element={<PastSponsors/>}/>
-                <Route path="/sponsor-us" element={<SponsorUs/>}/>
+                <Route path={`${githubPage}`} element={<Home/>}/>
+                <Route path={`${githubPage}/why-attend`} element={<WhyAttend/>}/>
+                <Route path={`${githubPage}/past-sponsors`} element={<PastSponsors/>}/>
+                <Route path={`${githubPage}/sponsor-us`} element={<SponsorUs/>}/>
                 {/*<Route path="/gallery" element={<Gallery/>}/>*/}
-                <Route path="/tickets" element={<Tickets/>}/>
-                <Route path="/contact-us" element={<ContactUs/>}/>
-                <Route path="*" element={<NotFound/>}/>
+                <Route path={`${githubPage}/tickets`} element={<Tickets/>}/>
+                <Route path={`${githubPage}/contact-us`} element={<ContactUs/>}/>
+                <Route path={`${githubPage}/*`} element={<NotFound/>}/>
             </Routes>
             { footer }
         </>
