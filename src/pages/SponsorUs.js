@@ -45,15 +45,16 @@ export const SponsorUs = () => {
                     <br/>
                     <br/>
                     <h2>Benefits Breakdown</h2>
-                    <table className="benefits-table">
-                        <thead>
+                    <div>
+                        <table className="benefits-table">
+                            <thead>
                             <tr>
                                 <th>Sponsorship Benefits</th>
                                 <th>Title<br/>1 Available</th>
                                 <th>Gold<br/>4 Available</th>
                             </tr>
-                        </thead>
-                        <tbody>
+                            </thead>
+                            <tbody>
                             { benefits.map( benefit => <>
                                 <tr className="row type">
                                     <th className="col" colSpan={3}>{ benefit.type }</th>
@@ -64,8 +65,9 @@ export const SponsorUs = () => {
                                     <td className="col">{item.hasGold && <span className="circle"></span>}</td>
                                 </tr> )}
                             </>)}
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </>

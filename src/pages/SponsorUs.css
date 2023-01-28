@@ -43,3 +43,22 @@
     background-color: #f19871;
     border-radius: 50%;
 }
+
+
+@media (max-width: 700px) {
+
+    .sponsor-us .benefits-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 475px) {
+
+    .sponsor-us .inner > div {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+}

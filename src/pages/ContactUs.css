@@ -90,3 +90,62 @@ button {
 .contacts {
     padding-right: 34px;
 }
+
+@media (max-width: 768px) {
+
+    .container .row {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .half__form {
+        width: unset;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .half__form {
+        padding: 30px 70px 50px;
+    }
+
+    .event-details .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+@media (max-width: 475px) {
+
+    .container {
+        margin-top: 75px;
+    }
+
+    .sponsor-us .inner > div {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .item {
+        flex: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .df h5 {
+        font-size: 1rem;
+    }
+
+    .contacts {
+        padding-right: 25px;
+    }
+
+    .container .row {
+        margin-bottom: 70px;
+    }
+
+}

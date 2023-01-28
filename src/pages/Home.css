@@ -131,3 +131,30 @@
 .sponsors h1 {
   margin-bottom: 80px;
 }
+
+@media (max-width: 640px) {
+
+  .intro-section .div2 div {
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .numbers-cols {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .event-details .grid button {
+    font-size: 1rem;
+    width: 250px;
+  }
+
+}
+
